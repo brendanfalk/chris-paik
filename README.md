@@ -1,31 +1,19 @@
-# Chris Paik Minimalist Blog
+# Chris Paik Blog
 
-A minimalist, beautiful blog for Chris Paik, inspired by rauchg.com. Built with just HTML, CSS, and minimal JavaScript.
+A minimalist blog for Chris Paik. 
 
-## Features
+https://chris-paik.vercel.app/
 
-- Minimal, clean design
-- Light and dark mode (toggle in header)
-- Blog posts listed by year
+## How to add blog posts
 
-## Adding Blog Posts
+Add a new <li></li> to `index.html` in the `#blog-posts` section.
 
-Edit `index.html` and add your blog posts in the `#blog-posts` section, grouped by year. Example:
+## How to deploy
 
-```
-<section id="blog-posts">
-  <div class="year">2024</div>
-  <ul>
-    <li><a href="LINK_TO_POST">Title of Post</a></li>
-    <!-- more posts -->
-  </ul>
-  <div class="year">2023</div>
-  <ul>
-    <li><a href="LINK_TO_POST">Another Post</a></li>
-  </ul>
-</section>
-```
+Host the files on any static site hosting provider (Vercel)
 
-## Deployment
-
-Just open `index.html` in your browser or host the files on any static site host.
+## Todos
+- [ ] Covert to more modern typescript framework (nextjs/react)
+- [ ] Add favicon
+- [ ] Better SEO
+- [ ] Connect to better domain
